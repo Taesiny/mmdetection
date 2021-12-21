@@ -147,6 +147,6 @@ optimizer = dict(
 optimizer_config = dict(grad_clip=dict(max_norm=0.1, norm_type=2))
 # learning policy
 lr_config = dict(policy='step', step=[100])
-runner = dict(type='EpochBasedRunner', max_epochs=150)
+runner = dict(type='EpochBasedRunner', max_epochs=50)
 
 load_from = 'https://download.openmmlab.com/mmdetection/v2.0/detr/detr_r50_8x2_150e_coco/detr_r50_8x2_150e_coco_20201130_194835-2c4b8974.pth'
