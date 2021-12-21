@@ -49,4 +49,4 @@ data = dict(
         img_prefix=data_root + 'test/',
         pipeline=test_pipeline,
         classes = ('defect',)))
-evaluation = dict(interval=10, metric='mAP')
+evaluation = dict(interval=10, metric='bbox')
